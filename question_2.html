@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url("img/bg.jpg");
+        }
+
+        .form-holder {
+            width: 350px;
+            padding: 20px;
+            margin-top: 50px;
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        .login-input {
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            border: 0px;
+            background: rgba(0, 0, 0, 0.40);
+            color: white;
+        }
+
+        .login-submit {
+            width: 101%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+            border: 0;
+            background: blueviolet;
+            color: white;
+        }
+
+        .login-submit:hover {
+            filter: brightness(90%);
+        }
+
+        a {
+            color: darkgray;
+            text-align: center;
+            text-decoration: blink;
+        }
+
+        p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="form-holder" align="center">
+        <div>
+            <h2>Login</h2>
+        </div>
+        <div>
+            <form action="http://www.google.com" method="POST">
+                <input class="login-input" placeholder="username">
+                <input class="login-input" placeholder="password">
+                <button class="login-submit">Login</button>
+                <p>Not a member? <a href="https://www.google.com/signup">signup</a></p>
+            </form>
+        </div>
+    </div>
+</center>
+</body>
+</html>
